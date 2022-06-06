@@ -1,14 +1,16 @@
 :root {
+  --bg-light: #f6f6f6;
   --white: #eeeeee;
   --light-grey: #999999;
-  --mid-grey: #666666;
-  --dark-grey: #333333;
+  --dark-grey: #555555;
   --black: #111111;
+  --green: #3aa251;
 }
 
 body {
   margin: 0 auto;
   height: 100vh;
+  background-color: var(--bg-light);
 }
 
 h1 {
