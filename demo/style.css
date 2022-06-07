@@ -9,8 +9,15 @@
 
 body {
   margin: 0 auto;
+  box-sizing: border-box;
+  display: grid;
+  justify-content: center;
   height: 100vh;
   background-color: var(--bg-light);
+}
+
+img {
+  border: 1px solid var(--light-grey);
 }
 
 h1 {
@@ -18,7 +25,7 @@ h1 {
 }
 
 h2 {
-  color: var(--mid-grey);
+  color: var(--dark-grey);
 }
 
 h3 {
