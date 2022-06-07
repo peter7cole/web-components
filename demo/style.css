@@ -1,8 +1,7 @@
 :root {
-  --bg-light: #f6f6f6;
-  --white: #eeeeee;
-  --light-grey: #999999;
-  --dark-grey: #555555;
+  --white: #f6f6f6;
+  --light-grey: #ebebeb;
+  --dark-grey: #444444;
   --black: #111111;
   --green: #3aa251;
 }
@@ -22,12 +21,4 @@ img {
 
 h1 {
   color: var(--black);
-}
-
-h2 {
-  color: var(--dark-grey);
-}
-
-h3 {
-  color: var(--light-grey);
 }
