@@ -11,9 +11,18 @@
     <h1>Web Component Demo</h1>
     <img src="https://randomuser.me/api/portraits/men/3.jpg" />
     <h2>Edward Abbey</h2>
-    <user-card name="Pete Rock" avatar="https://randomuser.me/api/portraits/men/10.jpg"></user-card>
-    <user-card name="CL Smooth" avatar="https://randomuser.me/api/portraits/men/11.jpg"></user-card>
-    <user-card name="Teren Delvon Jones" avatar="https://randomuser.me/api/portraits/men/12.jpg"></user-card>
+    <user-card name="Pete Rock" avatar="https://randomuser.me/api/portraits/men/10.jpg">
+      <div slot="email">peterock@sample.com</div>
+      <div slot="phone">555-555-5555</div>
+    </user-card>
+    <user-card name="CL Smooth" avatar="https://randomuser.me/api/portraits/men/11.jpg">
+      <div slot="email">clsmooth@sample.com</div>
+      <div slot="phone">555-555-5555</div>
+    </user-card>
+    <user-card name="Teren Delvon Jones" avatar="https://randomuser.me/api/portraits/men/12.jpg">
+      <div slot="email">terenjones@sample.com</div>
+      <div slot="phone">555-555-5555</div>
+    </user-card>
 
     <script src="userCard.js"></script>
   </body>
